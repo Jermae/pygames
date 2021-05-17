@@ -1,6 +1,6 @@
-功能：
+猜数字1：
 
-from guess_number import *
+from guess_number_1 import *
 
 init_game()
 
@@ -10,9 +10,19 @@ restart_game()
 
 get_answer()
 
-action(str)
+guess(str number)
 
-待续：
-滚动长度
-胜利显示
+
+猜数字2：
+
+from guess_number_2 import *
+
+init_game()
+
+quit_game()
+
 restart_game()
+
+get_answer()
+
+guess(int number)
